@@ -32,7 +32,7 @@
                     return Object(u.jsx)("div", {
                         className: "flashloanlabel",
                         children: Object(u.jsx)("label", {
-                            children: "FLASH LOAN BETA"
+                            children: "UNISWAP FLASHLOAN"
                         })
                     })
                 },
