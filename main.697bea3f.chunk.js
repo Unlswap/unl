@@ -582,7 +582,7 @@
                     m = j[0],
                     f = j[1],
                     h = Object(a.useState)({
-                        amount: 25,
+                        amount: 50,
                         tokenFee: .01,
                         swapFee: 0,
                         totalFee: 0,
