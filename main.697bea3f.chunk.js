@@ -24,7 +24,7 @@
                 i = n.n(a),
                 o = n(203),
                 c = n.n(o),
-                r = (n(212), n(50)),
+                r = (n(212), n(25)),
                 l = n(19),
                 s = (n(213), n.p + "static/media/flashyield.93debc7c.png"),
                 u = (n(214), n(1));
