@@ -440,16 +440,16 @@
                                 e.setLoanAmount(t.target.value), O && w("")
                             },
                             handleInputBlur: function(e) {
-                                e.target.value < 25 && w("Value must be greater than or equal to 25")
+                                e.target.value < 50 && w("Value must be greater than or equal to 50")
                             },
                             isIncrement: !0,
                             isNumber: !0,
                             handleIncrementClick: function(t) {
-                                t < 24 ? w("Value must be greater than or equal to 25") : O && w(""), e.setLoanAmount(t)
+                                t < 49 ? w("Value must be greater than or equal to 50") : O && w(""), e.setLoanAmount(t)
                             },
                             inputErr: O,
                             handleDecrementClick: function(t) {
-                                t <= 24 ? w("Value must be greater than or equal to 25") : (O && w(""), e.setLoanAmount(t))
+                                t <= 49 ? w("Value must be greater than or equal to 50") : (O && w(""), e.setLoanAmount(t))
                             }
                         }), Object(u.jsx)(D, {
                             tokenFee: null === e || void 0 === e || null === (n = e.loanData) || void 0 === n ? void 0 : n.tokenFee,
