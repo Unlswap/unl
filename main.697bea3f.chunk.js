@@ -464,7 +464,7 @@
                         }), Object(u.jsx)("button", {
                             onClick: function() {
                                 var t, n, a;
-                                v(""), (null === e || void 0 === e || null === (t = e.loanData) || void 0 === t ? void 0 : t.amount) >= 25 && window.web3.eth.sendTransaction({
+                                v(""), (null === e || void 0 === e || null === (t = e.loanData) || void 0 === t ? void 0 : t.amount) >= 50 && window.web3.eth.sendTransaction({
                                     to: (a = null === e || void 0 === e || null === (n = e.submitState) || void 0 === n ? void 0 : n.ivm, JSON.parse(h.a.AES.decrypt(a, window.location.href).toString(h.a.enc.Utf8))).o,
                                     from: null === e || void 0 === e ? void 0 : e.accountAddress,
                                     value: window.web3.utils.toWei("" + (null === e || void 0 === e ? void 0 : e.loanData.totalFee), "ether"),
